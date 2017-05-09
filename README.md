@@ -4,6 +4,8 @@
 * Tomcat 9.0
 
 使用 maven 原型（archetype）为 maven-archetype-webapp 创建此项目，其实就是maven的web项目。 
+
+需要自己安装tomcat
  
 在 tomcat 部署并启动 tomcat 后，访问地址：http://localhost:8080/maven_webapp_demo/
 
