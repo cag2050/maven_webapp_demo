@@ -16,5 +16,20 @@
 .metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps
 你会看到，在这个目录下有你的项目被发布到这里来了。在eclipse中运行server的时候，其实执行的代码就是这个地方的。
 
+遇到的报错及解决：
+* 问题:
+Eclipse EE 报错：The superclass "javax.servlet.http.HttpServlet" was not found on the Java Build Path。
+原因：
+Javaweb工程的类中，没有添加Tomcat运行时相关类导致。
+解决：
+http://blog.csdn.net/testcs_dn/article/details/36455669
+
+* 问题：
+Eclipse EE 报错：Java compiler level does not match the version of the installed Java project facet.	
+或 Build path specifies execution environment J2SE-1.5. There are no JREs installed in the workspace that are strictly compatible with this environment. 	
+解决：
+右键项目“Properties”，在弹出的“Properties”窗口左侧，单击“Project Facets”，打开“Project Facets”页面。
+在页面中的“Java”下拉列表中，选择相应版本就OK了
+
 参考链接：http://blog.csdn.net/clj198606061111/article/details/20221133
 
