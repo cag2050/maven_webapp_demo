@@ -10,7 +10,7 @@
  
 在 tomcat 部署并启动 tomcat 后，访问地址：http://localhost:8080/maven_webapp_demo/  
 
-修改 jsp 文件内容后，会 Republish 到 tomcat，刷新浏览器即可看到修改结果。
+修改 jsp 文件内容后，会自动 Republish 到 tomcat，刷新浏览器即可看到修改结果。
 
 其实在eclipse中配置server的时候，eclipse会把web项目自动发布到工作空间的：
 .metadata\.plugins\org.eclipse.wst.server.core\
